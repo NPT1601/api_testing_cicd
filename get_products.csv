@@ -1,0 +1,11 @@
+Test Case ID,category_id,price_range,search_query,page,Expected Status,Expected Behavior
+TC-GP-01,,,"",1,200,Return all products
+TC-GP-02,1,,"",1,200,Filter by category (category 1)
+TC-GP-03,,10,30,,200,Filter by price range (10-30)
+TC-GP-04,,"","lorem",1,200,Search by name (contains "lorem")
+TC-GP-05,,,"",1,200,Normal
+TC-GP-06,,30,50,,200,Filter by price range (30-50), page 2
+TC-GP-07,,"","pliers",1,200,Search by name (contains "pliers")
+TC-GP-08,3,,"",1,200,Filter by category (category 3 - Hammer)
+TC-GP-09,,,"",3,200,Page 3 of products
+TC-GP-10,,"","hammer",1,200,Search by name (contains "hammer")
