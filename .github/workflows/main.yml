@@ -31,7 +31,7 @@ jobs:
           # Chạy Collection 2 với file CSV forget_password.csv
           postman collection run "33369205-424d911d-9ef1-4719-a01f-b84e94f7d98f" \
             --environment "33369205-7fcbcbbf-dffe-43b3-9011-aff6170c02c3" \
-            --iteration-data "./forget_password.csv"
+            --iteration-data "./forgot_password.csv"
 
           # Chạy Collection 3 với file CSV contact_form.csv
           postman collection run "33369205-f73a3642-075c-4b78-b534-ca89a099645a" \
